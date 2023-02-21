@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping(value = "/persona")
-@CrossOrigin(origins = {"http://localhost:4200","https://portafolio-dariocastillo11.web.app"})
+@CrossOrigin(origins = {"https://portafolio-dariocastillo11.web.app","http://localhost:4200"})
 public class  Controller {
     @Autowired
     private PersonaService persoServ;
