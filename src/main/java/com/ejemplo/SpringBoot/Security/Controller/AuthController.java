@@ -25,7 +25,7 @@ import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
 
-@CrossOrigin(origins = {"http://localhost:4200/","https://portafolio-dariocastillo11.web.app/"})
+@CrossOrigin(origins = "https://portafolio-dariocastillo11.web.app")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
