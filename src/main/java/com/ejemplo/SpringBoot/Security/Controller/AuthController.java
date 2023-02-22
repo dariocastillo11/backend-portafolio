@@ -25,9 +25,10 @@ import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
 
-@CrossOrigin(origins = "https://portafolio-dariocastillo11.web.app")
 @RestController
 @RequestMapping("/auth")
+//@CrossOrigin(origins = "https://portafolio-dariocastillo11.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
