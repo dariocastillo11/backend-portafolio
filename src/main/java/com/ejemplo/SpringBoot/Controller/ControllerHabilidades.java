@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping(value = "/habilidades")
 @CrossOrigin(origins = "https://portafolio-dariocastillo11.web.app")
 //@CrossOrigin(origins = "http://localhost:4200")
-public class ControllerHabilidsades {
+public class ControllerHabilidades {
 
     @Autowired
     private HabilidadesService haServ;
